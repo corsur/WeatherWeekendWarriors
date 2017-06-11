@@ -55,7 +55,7 @@ def forecast_vector(r):
 
 	return weather_vector
 
-input_file = open('C:\Users\corsur\Documents\sdk_machine_learning\code\SampleTrainingData.csv', 'r')
+input_file = open('C:\Users\vanes\Documents\WeatherWeekendWarriors\SampleTrainingData.csv', 'r')
 csv_reader = csv.reader(input_file, delimiter=',', quotechar='"')
 
 activities = ["hunting", "paragliding", "chess", "camping", "hiking", "biking", "boating", "fishing"]

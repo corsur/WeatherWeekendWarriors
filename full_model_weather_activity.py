@@ -58,7 +58,7 @@ def forecast_vector(r):
 input_file = open('C:\Users\corsur\Documents\sdk_machine_learning\code\SampleTrainingData.csv', 'r')
 csv_reader = csv.reader(input_file, delimiter=',', quotechar='"')
 
-activities = ["hunting", "paragliding", "skiing", "camping", "hiking", "biking", "boating", "fishing"]
+activities = ["hunting", "paragliding", "chess", "camping", "hiking", "biking", "boating", "fishing"]
 
 list_of_questions = []
 
@@ -98,7 +98,7 @@ from csv_to_array import loadData
 training_data = loadData(filename)
 '''
 x_names = ["temperature","humididty","precipitation","snow"]
-y_names = ["hunting", "paragliding", "skiing", "camping", "hiking", "biking", "boating", "fishing"]
+y_names = activities
 
 x_train = []
 y_train = []
